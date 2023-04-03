@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenSSL_VS2010", "OpenSSL_VS2010.vcxproj", "{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Configure_VS2010", "Configure_VS2010.vcxproj", "{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|Win32.ActiveCfg = Release|Win32
+		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|Win32.Build.0 = Release|Win32
+		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|x64.ActiveCfg = Release|x64
+		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|x64.Build.0 = Release|x64
+		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|Win32.ActiveCfg = Release|Win32
+		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|Win32.Build.0 = Release|Win32
+		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|x64.ActiveCfg = Release|x64
+		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
