@@ -1,6 +1,6 @@
 @echo off
 
-call :GET_ARCH "%~1" || GOTO ERR
+call :SET_ARCH "%~1"
 call :PREPARE_BUILDDIR "%~2" || GOTO ERR
 
 IF /I "%~2" == "/Clean" GOTO EOF
@@ -12,27 +12,27 @@ set PATH=%PERL_DIR%;%NASM_DIR%;%PATH%
 
 GOTO :EOF
 
-:GET_ARCH
-	set ARCH=UNKNOWN
+:SET_ARCH
+	set ARCH=%~1
 	set CFGOC=UNKNOWN
 
 	IF /I "%~1" == "x86" (
-		set ARCH=x86
 		set CFGOC=VC-WIN32
 	)
 
-	IF /I "%~1" == "amd64" (
-		set ARCH=x64
+	IF /I "%~1" == "x64" (
 		set CFGOC=VC-WIN64A
 	)
 
-	IF /I "%~1" == "arm" (
-		set ARCH=a32
+	IF /I "%~1" == "ia64" (
+		set CFGOC=VC-WIN64I
+	)
+
+	IF /I "%~1" == "a32" (
 		set CFGOC=VC-WIN32-ARM
 	)
 
-	IF /I "%~1" == "arm64" (
-		set ARCH=a64
+	IF /I "%~1" == "a64" (
 		set CFGOC=VC-WIN64-ARM
 	)
 

@@ -10,6 +10,7 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|ARM = Release|ARM
 		Release|ARM64 = Release|ARM64
+		Release|Itanium = Release|Itanium
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
@@ -18,6 +19,8 @@ Global
 		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|ARM.Build.0 = Release|ARM
 		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|ARM64.ActiveCfg = Release|ARM64
 		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|ARM64.Build.0 = Release|ARM64
+		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|Itanium.ActiveCfg = Release|Itanium
+		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|Itanium.Build.0 = Release|Itanium
 		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|Win32.ActiveCfg = Release|Win32
 		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|Win32.Build.0 = Release|Win32
 		{C341EAD8-BB2A-E1A3-9763-B0F5D4012EFB}.Release|x64.ActiveCfg = Release|x64
@@ -26,6 +29,8 @@ Global
 		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|ARM.Build.0 = Release|ARM
 		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|ARM64.ActiveCfg = Release|ARM64
 		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|ARM64.Build.0 = Release|ARM64
+		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|Itanium.ActiveCfg = Release|Itanium
+		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|Itanium.Build.0 = Release|Itanium
 		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|Win32.ActiveCfg = Release|Win32
 		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|Win32.Build.0 = Release|Win32
 		{11BF207E-1B60-5310-0CA8-0CBFEF6D600E}.Release|x64.ActiveCfg = Release|x64

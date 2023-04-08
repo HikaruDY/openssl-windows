@@ -5,6 +5,7 @@ pushd "%~dp0"
 	IF EXIST "x64" call :COLLECT x64
 	IF EXIST "a32" call :COLLECT a32
 	IF EXIST "a64" call :COLLECT a64
+	IF EXIST "ia64" call :COLLECT ia64
 popd
 
 GOTO :EOF

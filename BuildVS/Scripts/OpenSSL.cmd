@@ -11,7 +11,15 @@ IF /I "%~2" == "/Clean" (
 )
 
 set LDFLAGS=/nologo /Machine:%ARCH%
-nmake /E || GOTO ERR
+set CFLAGS=/W3 /wd4090 /nologo /O2
+set CNF_CFLAGS=/Gs0 /GF /Gy /MT
+
+nmake /E depend || GOTO ERR
+nmake /E build_generated || GOTO ERR
+nmake /E build_libs_nodep || GOTO ERR
+nmake /E build_modules_nodep || GOTO ERR
+REM //nmake /E libcrypto.lib libcrypto_static.lib libssl.lib libssl_static.lib libcrypto-3.dll libssl-3.dll || GOTO ERR
+nmake /E apps\openssl.exe || GOTO ERR
 
 GOTO EOF
 :ERR
