@@ -1,18 +1,61 @@
-*.user
+# Project Entertainments* common ignore list
+#	(C)2023 Project Entertainments*
+
+# Work directory (VS)
+/BuildVS/.vs
+/BuildVS/TEMP
+/BuildVS/Release*
+/BuildVS/Debug*
+/BuildVS/libs
+
+# Work directory (Script)
+/BuildEx/TEMP
+/BuildEx/Release*
+/BuildEx/Debug*
+/BuildEx/libs
+
+# Work directory (Project Studio)
+/BuildPS/TEMP
+/BuildPS/Release*
+/BuildPS/Debug*
+/BuildPS/libs
+
+
+# Generated files
 *.suo
-BuildVS/*.log
-BuildVS/.vs
+*.vcxproj.user
+*.vcxproj.filters
+*.sdf
+*.opensdf
+*.ipch
+*.log
+*.tlog
+
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.obj
+*.cache
+
+*.o
+*.a
+*.lo
+*.la
+*.Po
+
+# OS related
+Thumbs.db
+.DS_Store
+
+# This project
 BuildVS/x86
 BuildVS/x64
+BuildVS/ia64
 BuildVS/a32
 BuildVS/a64
-BuildVS/ia64
-BuildVS/Itanium
 BuildVS/obj
-BuildVS/Release
-BuildVS/Release_*
-BuildVS/Debug
-BuildVS/Debug_*
+BuildVS/Itanium
 BuildVS/ARM
 BuildVS/ARM64
-

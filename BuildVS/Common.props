@@ -4,13 +4,6 @@
 		<root>$(SolutionDir)/</root>
 	</PropertyGroup>
 
-	<ItemDefinitionGroup>
-		<ClCompile>
-		</ClCompile>
-		<Link>
-		</Link>
-	</ItemDefinitionGroup>
-
 	<!-- $(PlatformID) macro -->
 	<PropertyGroup Label="UserMacros">
 		<PlatformID>unknown</PlatformID>
@@ -34,4 +27,11 @@
 	<PropertyGroup Label="UserMacros" Condition="('$(Platform)'=='ARM64EC')">
 		<PlatformID>a64ec</PlatformID>
 	</PropertyGroup>
+
+	<ItemDefinitionGroup>
+		<ClCompile>
+		</ClCompile>
+		<Link>
+		</Link>
+	</ItemDefinitionGroup>
 </Project>
